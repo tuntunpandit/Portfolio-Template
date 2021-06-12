@@ -1,5 +1,20 @@
-$primary: #0000;
 
-.test {
-    color: $primary;
-}
+// custom scss for overridig bootstrap properties
+@use 'custom';
+
+// import all components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// import all sections
+@use 'sections/navbar';
+@use 'sections/intoduction';
+@use 'sections/companies';
+@use 'sections/services';
+@use 'sections/testimonials';
+@use 'sections/faq';
+@use 'sections/portfolio';
+@use 'sections/get-started';
+@use 'sections/footer';
